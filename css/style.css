@@ -1,0 +1,108 @@
+body{
+    background: url('../img/work.jpg') no-repeat;
+    background-size: 50vw;
+    background-position-y: 50%;
+}
+p,a,h2,label,input{
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 25vh;
+    padding-right: 38px;
+}
+.logo{
+    background-color: rgb(231, 233, 241);
+    box-shadow: 3px 3px 9px 1px rgba(52,67,86,0.52);
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.logo a{
+    color: #1a7f83;
+    height:100%;
+    padding:16px;   
+    display: flex;
+    justify-content: center;
+}
+header.links{
+    display: flex;
+    justify-content: flex-end;
+}
+.links a{
+    margin-right:10px;
+    color: #333;
+    font-size: 20px;
+}
+.button:hover{
+    border: 1px solid #1a7f83;
+}
+.links a:hover{
+    text-decoration: underline #1a7f83;
+}
+.button{
+    text-transform: uppercase;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 22px;
+    padding: 5px 20px 5px 20px;
+}
+.button a{
+    font-size: 14px;
+}
+
+section{
+    display: flex;
+    width: 50vw;
+    left: 50vw;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+section h2{
+    font-weight: 300;
+    text-align: right important!;
+}
+
+form{
+    display: grid;
+    padding-top: 5px;
+    width: 30vw;
+}
+label{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: -14px;
+}
+input{
+    margin-bottom: 15px;
+}
+span{
+    text-align: center;
+}
+span a{
+    color:#000;
+    font-size: inherit;
+    text-decoration: underline;
+}
+span input{
+    margin-right: 15px;
+}
+span p{
+    font-size: inherit;
+    text-align: center;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.button.down{
+    background-color: #1a7f83;
+    color: white;
+    width: 32%;
+    margin: 4% auto;
+}
